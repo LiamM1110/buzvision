@@ -309,7 +309,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
-
+    background-color: #1E2A38;
+    
 
 
 
@@ -400,7 +401,7 @@ main a {
     color: white;
    
     
-    background-color: coral;
+    background-color: #1E2A38;
     border: black solid 3px;
 }
 
@@ -569,6 +570,7 @@ main a {
         
         h1{
             margin-bottom: 40px;
+            
         }
 
 
