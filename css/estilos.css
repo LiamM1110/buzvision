@@ -10,7 +10,7 @@ header {
   z-index: 110;
   width: 100%;
 }
-header img {
+header a .logo {
   width: 60px;
   margin: 8px;
 }
@@ -60,10 +60,6 @@ main .contenedor-grid .titulo-grid {
   grid-area: titulo;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-main .contenedor-grid .titulo-grid {
-  grid-area: titulo;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
 main .contenedor-grid .parrafo-grid {
   grid-area: parrafo;
   font-family: initial;
@@ -83,14 +79,14 @@ main .contenedor-grid .img {
 main .contenedor-grid .img1 {
   grid-area: img1;
 }
-main .redes {
+main h2 .redes {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
   padding: 100px;
 }
-main .redes a {
+main h2 .redes a {
   padding: 10px;
   border-radius: 1.8rem;
   background-color: darkblue;
@@ -121,13 +117,13 @@ main .promo .promo1 .promo img {
   width: 100%;
   height: auto;
 }
-main .promo .wayfarer {
+main .promo .promo1 .wayfarer {
   justify-content: center;
   align-items: center;
   padding: 8px;
   margin: 20px;
 }
-main .promo .wayfarer .cash {
+main .promo .promo1 .wayfarer .cash {
   font-size: 30px;
 }
 main .promo a .btn-comprar {
@@ -208,6 +204,23 @@ main .promo3 a .btn-comprar {
 }
 main .promo3 a .btn-comprar hover {
   background-color: #218838;
+}
+
+footer {
+  text-align: center;
+}
+footer .paz {
+  padding: 40px;
+  background-color: #1E2A38;
+}
+footer .paz .foto {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+footer .paz .foto a img .red {
+  width: 45px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

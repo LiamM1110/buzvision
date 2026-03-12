@@ -40,6 +40,10 @@ header {
     width: 50%;
     justify-content: space-evenly;
 }
+header .logo{
+    width: 60px;
+    margin: 8px;
+}
 
 /* search*/
 .search-form{
@@ -305,18 +309,11 @@ footer {
 
 }
 
-.paz {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
-    background-color: #1E2A38;
-    
 
-
-
-
+.red{
+   
+    width: 45px;
 }
-
 /*body de contacto*/
 
 
@@ -333,7 +330,8 @@ main a {
 }
 
 .linea {
-    text-decoration: underline;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .cash{
