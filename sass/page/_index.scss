@@ -1,0 +1,240 @@
+
+
+@use "../generales/variables" as*;
+
+.contenedor-grid {
+    background-image: url(../img/Imageeennegra.png);
+
+        
+        padding: 80px;
+        margin: 80px;
+        display: grid;
+        grid-template-areas:
+            "titulo titulo titulo"
+            "parrafo parrafo img"
+            "img1 . texto2"
+        ;
+
+        grid-template-columns: 35% 20% 35%;
+
+
+        grid-template-rows: 60px 200px 250px;
+
+        justify-content: center;
+
+        justify-items: center;
+
+        align-items: center;
+
+        gap: 10px;
+
+        .titulo-grid {
+            grid-area: titulo;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .parrafo-grid {
+            grid-area: parrafo;
+            font-family: initial;
+
+        }
+
+        .texto2 {
+            grid-area: texto2;
+            font-family: initial;
+        }
+
+        .contenedor-grid img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .img {
+            grid-area: img;
+        }
+
+        .img1 {
+            grid-area: img1;
+        }
+
+
+
+
+
+        .promo {
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            .promo1 {
+                position: relative;
+                background-color: #999999;
+                box-shadow: 0 2px 7px #dfdfdf;
+                margin: 20px;
+                width: 55%;
+
+                .promo img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .wayfarer {
+
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px;
+                    margin: 20px;
+
+                    h4 {
+                        display: flex;
+                        align-items: center;
+                        color: black;
+                    }
+
+
+                    .cash {
+                        font-size: 30px;
+                    }
+                }
+
+
+
+
+            }
+
+            a {
+                .btn-comprar {
+                    display: inline-block;
+                    padding: 12px 25px;
+                    background-color: #28a745;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                    border-radius: 8px;
+                    font-weight: bold;
+
+                    hover {
+                        background-color: #218838;
+                    }
+
+                }
+            }
+        }
+
+        .promo2 {
+            position: relative;
+            background-color: #999999;
+            box-shadow: 0 2px 7px #dfdfdf;
+            margin: 20px;
+            width: 55%;
+
+            .promo img {
+                width: 100%;
+                height: auto;
+            }
+
+            .clubmaster {
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                margin: 20px;
+
+                h4 {
+                    display: flex;
+                    align-items: center;
+                    color: black;
+                }
+
+
+                .cash {
+                    font-size: 30px;
+                }
+
+
+            }
+
+            a {
+                .btn-comprar {
+                    display: inline-block;
+                    padding: 12px 25px;
+                    background-color: #28a745;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                    border-radius: 8px;
+                    font-weight: bold;
+
+                    hover {
+                        background-color: #218838;
+                    }
+
+                }
+            }
+
+
+        }
+
+        .promo3 {
+            position: relative;
+            background-color: #999999;
+            box-shadow: 0 2px 7px #dfdfdf;
+            margin: 20px;
+            width: 55%;
+
+            .promo img {
+                width: 100%;
+                height: auto;
+            }
+
+            .hexagonal {
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                margin: 20px;
+
+                h4 {
+                    display: flex;
+                    align-items: center;
+                    color: black;
+                }
+
+
+
+                .cash {
+                    font-size: 30px;
+                }
+
+            }
+
+            a {
+                .btn-comprar {
+                    display: inline-block;
+                    padding: 12px 25px;
+                    background-color: #28a745;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                    border-radius: 8px;
+                    font-weight: bold;
+
+                    hover {
+                        background-color: #218838;
+                    }
+
+                    .boton-comprar {
+                        background-color: green;
+                        color: white;
+                        padding: 12px 25px;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+        }
+     
+}   
