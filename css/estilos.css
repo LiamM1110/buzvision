@@ -1,18 +1,17 @@
-/* Error: expected "}".
- *     ,
- * 117 |     background-image: url(../img/Imageeennegra.png);{
- *     |                                                     ^
- *     '
- *   sass\generales\_mainn.scss 117:53  @use
- *   sass\main.scss 5:1                 root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 117 \2502      background-image: url(../img/Imageeennegra.png);{\d\a     \2502                                                      ^\a     \2575 \a   sass\\generales\\_mainn.scss 117:53  @use\a   sass\\main.scss 5:1                 root stylesheet';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/*body*/
+body {
+  background-color: #0F172A;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=estilos.css.map */

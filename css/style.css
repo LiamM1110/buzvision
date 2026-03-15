@@ -3,8 +3,6 @@
 
 
 
-
-
 /* search*/
 
 /*index*/
@@ -12,8 +10,131 @@
 
 
 /* main index*/
+.contenedor-grid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.contenedor-grid {
+    background-image: url(../img/Imageeennegra.png);
+    padding: 80px;
+    margin: 80px;
+    display: grid;
+    grid-template-areas:
+        "titulo titulo titulo"
+        "parrafo parrafo img"
+        "img1 . texto2"
+    ;
+
+    grid-template-columns: 35% 20% 35%;
+
+
+    grid-template-rows: 60px 200px 250px;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+
+    gap: 10px;
+
+
+
+}
+
+.titulo-grid {
+    grid-area: titulo;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parrafo-grid {
+    grid-area: parrafo;
+    font-family: initial;
+
+}
+
+.img {
+    grid-area: img;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.texto2 {
+    grid-area: texto2;
+    font-family: initial;
+}
+
 
 /*Las promociones*/
+
+.promo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.promo img {
+    width: 100%;
+    height: auto;
+}
+
+.promo1 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+
+}
+
+.wayfarer {
+
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 20px;
+}
+
+.promo2 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+}
+
+.clubmaster {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 20px;
+}
+
+.promo3 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+}
+
+.hexagonal {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 20px;
+
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    color: black;
+}
 
 
 
@@ -29,6 +150,15 @@
 
 
 
+.buscar {
+
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    margin: 20px;
+    font-display: flex;
+}
+
 
 
 
@@ -36,15 +166,7 @@
 
 
 
-
-
-    
-
-
-
-
 /*footer general*/
-
 
 
 /*body de contacto*/
@@ -56,31 +178,83 @@
 
 /*main productos*/
 
+main a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.linea {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
 
 
 
 
+.coral {
+    background-color: black;
+    font-size: 1.4rem;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+}
 
-
-
-
-/* boton comprar*/
+.card-text {
+    color: black;
+}
 
 
 /* header productos*/
+.produ {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
 
+
+}
 
 
 
 /* footer */
 
+.footer {
+    font-size: 1.3rem;
+    color: white;
 
+
+    background-color: #1E2A38;
+    border: black solid 3px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+
+    padding: 100px;
+
+}
+
+.redes a {
+    padding: 10px;
+    border-radius: 1.8rem;
+    background-color: darkblue;
+}
 
 
 
 
 
 /* contenedor Contacto   */
+.contenedor-contacto img {
+    border-radius: 15px;
+}
+
 
 
 
@@ -89,23 +263,3 @@
 
 /*main section contacto*/
 
-
-
-
-
-
-
-
-
-
-
-   
-  
-
-   
-        
-
-        
-        
-    
-    
