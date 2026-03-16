@@ -1,0 +1,597 @@
+//header general 3 html
+/*header general*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #1E2A38;
+    font-size: 1.5rem;
+    height: 70px;
+    z-index: 110;
+    width: 100%;
+
+
+    img {
+        width: 60px;
+        margin: 8px;
+    }
+
+
+
+    .juntos {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-evenly;
+
+        .search-form {
+            display: flex;
+        }
+
+        .search-form input {
+            padding: 8px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+
+        .search-form button {
+            padding: 8px 15px;
+            border: none;
+            background-color: #00bcd4;
+            cursor: pointer;
+        }
+
+        .search-form button:hover {
+            background-color: #0097a7;
+        }
+
+    }
+
+    nav {
+
+        width: 30%;
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+
+
+
+            align-items: center;
+            height: 100%;
+
+            li {
+                a {
+
+                    text-decoration: none;
+                    color: white;
+
+                }
+
+            }
+
+        }
+    }
+}
+
+//MAIN INDEX
+/*CONTENEDOR-GRID*/
+.index {
+    font-size: 4rem;
+}
+
+.contenedor-grid {
+    background-image: url(../img/Imageeennegra.png);
+    padding: 80px;
+    margin: 80px;
+    display: grid;
+    grid-template-areas:
+        "titulo titulo titulo"
+        "parrafo parrafo img"
+        "img1 . texto2"
+    ;
+
+    grid-template-columns: 35% 20% 35%;
+
+
+    grid-template-rows: 60px 200px 250px;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+
+    gap: 10px;
+
+    .titulo-grid {
+        grid-area: titulo;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .parrafo-grid {
+        grid-area: parrafo;
+        font-family: initial;
+
+    }
+
+    .texto2-grid {
+        grid-area: texto2;
+        font-family: initial;
+    }
+
+    .contenedor-grid {
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .img {
+        grid-area: img;
+    }
+
+    .img1 {
+        grid-area: img1;
+    }
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+
+    padding: 100px;
+
+    a {
+        padding: 10px;
+        border-radius: 1.8rem;
+        background-color: darkblue;
+    }
+
+
+
+
+
+}
+
+.h-3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    .promo1 {
+        position: relative;
+        background-color: #999999;
+        box-shadow: 0 2px 7px #dfdfdf;
+        margin: 20px;
+        width: 55%;
+
+        .wayfarer {
+
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            margin: 20px;
+
+            //general el h4 
+            h4 {
+                display: flex;
+                align-items: center;
+                color: black;
+            }
+
+            //GENERAL 
+            .cash {
+                font-size: 30px;
+            }
+
+
+        }
+
+
+    }
+
+    .wayfarer {
+
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        margin: 20px;
+    }
+
+    .btn-comprar {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn-comprar:hover {
+        background-color: #218838;
+    }
+
+    /* boton comprar*/
+    .boton-comprar {
+        background-color: green;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+
+}
+
+.promo2 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+
+    .clubmaster {
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        margin: 20px;
+
+
+        h4 {
+            display: flex;
+            align-items: center;
+            color: black;
+        }
+
+        .cash {
+            font-size: 30px;
+        }
+
+    }
+
+    .btn-comprar {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn-comprar:hover {
+        background-color: #218838;
+    }
+
+    /* boton comprar*/
+    .boton-comprar {
+        background-color: green;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+}
+
+
+.promo3 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+
+    .hexagonal {
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        margin: 20px;
+
+
+        h4 {
+            display: flex;
+            align-items: center;
+            color: black;
+        }
+
+        .cash {
+            font-size: 30px;
+        }
+
+
+    }
+
+    .btn-comprar {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn-comprar:hover {
+        background-color: #218838;
+    }
+
+    /* boton comprar*/
+    .boton-comprar {
+        background-color: green;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+}
+
+//arreglar grid contenedor index
+
+//footer general 
+footer {
+    text-align: center;
+
+    .paz {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px;
+    }
+
+    .footer {
+        font-size: 1.3rem;
+        color: white;
+
+
+        background-color: #1E2A38;
+        border: black solid 3px;
+    }
+
+}
+
+
+//MAIN PRODUCTOS
+/*MAIN PRODUCTOS*/
+.linea {
+    text-decoration: underline;
+}
+
+//CARROUSEL PROD
+/*CARROUSEL PROD*/
+
+#carouselExampleFade {
+    .carousel-inner {
+        .carousel-item {
+            img {}
+        }
+
+    }
+
+    .carousel-item {
+        img {}
+    }
+
+    .carousel-item {
+        img {}
+    }
+
+    .carousel-control-prev {
+        .carousel-control-prev-icon {}
+
+        .visually-hidden {}
+    }
+
+    .carousel-control-next {
+        .carousel-control-next-icon {}
+
+        .carousel-visually-hidden {}
+    }
+}
+
+
+//MAIN PRODUCTOS
+/*MAIN PRODUCTOS*/
+
+//VA UN H2 GENERAL
+
+//CARD BOOSTRAP
+/*CARD BOOSTRAP*/
+
+
+
+
+
+//MAIN CONTACTO
+
+.contenedor-contacto {
+    background-image: url(../img/Imageeennegra.png);
+    padding: 90px;
+    margin: 90px;
+    display: grid;
+
+    grid-template-areas:
+        "contacto3 contacto3 contacto3"
+        "contacto2 contacto contacto "
+        "contacto2 contacto contacto "
+        "contacto2 contacto contacto "
+    ;
+
+    grid-template-columns: 40% 30% 20%;
+
+    grid-template-rows: auto;
+
+
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    gap: 10px;
+
+    .contacto3 {
+        grid-area: contacto3;
+        padding-bottom: 100px;
+
+
+    }
+
+    .contacto2 {
+        grid-area: contacto2;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .contenedor-contacto img {
+        border-radius: 15px;
+    }
+
+    .contacto {
+        grid-area: contacto;
+    }
+
+}
+
+.primario {
+    background-color: #758A93;
+
+    .abajo {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        .formulario {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+            .formulario input,
+            .formulario textarea {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                font-size: 14px;
+            }
+
+            .formulario textarea {
+                resize: none;
+                height: 80px;
+            }
+
+            .formulario button {
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                background-color: #28a745;
+                color: white;
+                cursor: pointer;
+            }
+
+            .formulario button:hover {
+                background-color: #218838;
+            }
+
+
+        }
+
+    }
+}
+
+//MEDIA-QUERIES
+
+@media only screen and (max-width:480px) {
+    header {
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        height: 200px;
+        position: static;
+        top: 0;
+
+        .juntos {
+            width: 100%;
+            justify-content: center;
+        }
+
+        nav {
+            text-align: center;
+            width: 100%;
+
+            ul {
+                justify-content: space-around;
+                padding: 0;
+            }
+
+        }
+
+    }
+}
+.contenedor-grid{
+        padding: 20px;
+
+       margin: 0;
+        
+         grid-template-areas:
+         "titulo"
+         "img"
+         "parrafo"
+         "img1"
+         "texto2"
+            ;
+            grid-template-columns: 100%;
+            grid-template-rows: 100px 200px 150px 200px 150px ;
+        }
+         h1{
+            margin-bottom: 40px;
+        }
+        .promo{
+        justify-content: center;
+        flex-direction: column;
+        }
+        
+        
+        .contenedor-contacto{
+            padding:20px;
+            margin:0;
+            
+            grid-template-areas: 
+            "contacto3"
+            "contacto"
+            "contacto2";
+
+            grid-template-columns:100%;
+
+            grid-template-rows:auto ;
+
+        }

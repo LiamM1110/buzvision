@@ -1,0 +1,409 @@
+/*header general*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #1E2A38;
+  font-size: 1.5rem;
+  height: 70px;
+  z-index: 110;
+  width: 100%;
+}
+header img {
+  width: 60px;
+  margin: 8px;
+}
+header .juntos {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+header .juntos .search-form {
+  display: flex;
+}
+header .juntos .search-form input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+header .juntos .search-form button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #00bcd4;
+  cursor: pointer;
+}
+header .juntos .search-form button:hover {
+  background-color: #0097a7;
+}
+header nav {
+  width: 30%;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*CONTENEDOR-GRID*/
+.index {
+  font-size: 4rem;
+}
+
+.contenedor-grid {
+  background-image: url(../img/Imageeennegra.png);
+  padding: 80px;
+  margin: 80px;
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "parrafo parrafo img" "img1 . texto2";
+  grid-template-columns: 35% 20% 35%;
+  grid-template-rows: 60px 200px 250px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-grid .titulo-grid {
+  grid-area: titulo;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenedor-grid .parrafo-grid {
+  grid-area: parrafo;
+  font-family: initial;
+}
+.contenedor-grid .texto2-grid {
+  grid-area: texto2;
+  font-family: initial;
+}
+.contenedor-grid .contenedor-grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.contenedor-grid .img {
+  grid-area: img;
+}
+.contenedor-grid .img1 {
+  grid-area: img1;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 100px;
+}
+.redes a {
+  padding: 10px;
+  border-radius: 1.8rem;
+  background-color: darkblue;
+}
+
+.h-3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.promo .promo1 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo .promo1 .wayfarer {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .promo1 .wayfarer h4 {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.promo .promo1 .wayfarer .cash {
+  font-size: 30px;
+}
+.promo .wayfarer {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo .btn-comprar:hover {
+  background-color: #218838;
+}
+.promo {
+  /* boton comprar*/
+}
+.promo .boton-comprar {
+  background-color: green;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.promo2 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo2 .clubmaster {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo2 .clubmaster h4 {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.promo2 .clubmaster .cash {
+  font-size: 30px;
+}
+.promo2 .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo2 .btn-comprar:hover {
+  background-color: #218838;
+}
+.promo2 {
+  /* boton comprar*/
+}
+.promo2 .boton-comprar {
+  background-color: green;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.promo3 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo3 .hexagonal {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo3 .hexagonal h4 {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.promo3 .hexagonal .cash {
+  font-size: 30px;
+}
+.promo3 .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo3 .btn-comprar:hover {
+  background-color: #218838;
+}
+.promo3 {
+  /* boton comprar*/
+}
+.promo3 .boton-comprar {
+  background-color: green;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+footer .paz {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+footer .footer {
+  font-size: 1.3rem;
+  color: white;
+  background-color: #1E2A38;
+  border: black solid 3px;
+}
+
+/*MAIN PRODUCTOS*/
+.linea {
+  text-decoration: underline;
+}
+
+/*CARROUSEL PROD*/
+/*MAIN PRODUCTOS*/
+/*CARD BOOSTRAP*/
+.contenedor-contacto {
+  background-image: url(../img/Imageeennegra.png);
+  padding: 90px;
+  margin: 90px;
+  display: grid;
+  grid-template-areas: "contacto3 contacto3 contacto3" "contacto2 contacto contacto " "contacto2 contacto contacto " "contacto2 contacto contacto ";
+  grid-template-columns: 40% 30% 20%;
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-contacto .contacto3 {
+  grid-area: contacto3;
+  padding-bottom: 100px;
+}
+.contenedor-contacto .contacto2 {
+  grid-area: contacto2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenedor-contacto .contenedor-contacto img {
+  border-radius: 15px;
+}
+.contenedor-contacto .contacto {
+  grid-area: contacto;
+}
+
+.primario {
+  background-color: #758A93;
+}
+.primario .abajo {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.primario .abajo .formulario {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.primario .abajo .formulario .formulario input,
+.primario .abajo .formulario .formulario textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.primario .abajo .formulario .formulario textarea {
+  resize: none;
+  height: 80px;
+}
+.primario .abajo .formulario .formulario button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+.primario .abajo .formulario .formulario button:hover {
+  background-color: #218838;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    height: 200px;
+    position: static;
+    top: 0;
+  }
+  header .juntos {
+    width: 100%;
+    justify-content: center;
+  }
+  header nav {
+    text-align: center;
+    width: 100%;
+  }
+  header nav ul {
+    justify-content: space-around;
+    padding: 0;
+  }
+}
+.contenedor-grid {
+  padding: 20px;
+  margin: 0;
+  grid-template-areas: "titulo" "img" "parrafo" "img1" "texto2";
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 200px 150px 200px 150px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.promo {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-contacto {
+  padding: 20px;
+  margin: 0;
+  grid-template-areas: "contacto3" "contacto" "contacto2";
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
