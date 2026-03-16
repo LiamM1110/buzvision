@@ -1,27 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@200..700&display=swap');
-
-
-* {
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-
-/*body*/
-body{
-      background-color: #0F172A;
-}
-
-html, body{
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 
 /* search*/
 
@@ -38,17 +22,83 @@ html, body{
 
 /*Las promociones*/
 
+<<<<<<< HEAD
 
 .promo img{
+=======
+.promo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.promo img {
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
     width: 100%;
     height: auto;
 }
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+.promo1 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+
+}
+
+.wayfarer {
+
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 20px;
+}
+
+.promo2 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+}
+
+.clubmaster {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 20px;
+}
+
+.promo3 {
+    position: relative;
+    background-color: #999999;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 20px;
+    width: 55%;
+}
+
+.hexagonal {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 20px;
+
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 
 
 
@@ -63,9 +113,12 @@ html, body{
 
 
 
+<<<<<<< HEAD
 
 header 
 header 
+=======
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 
 .buscar {
 
@@ -81,58 +134,16 @@ header
 
 /* main general */
 
-h1 {
-    text-align: center;
-    font-family: "Gravitas One", serif;
-    color: white;
-    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
-    margin-top: 100px;
-    font-size: 3rem;
-}
-
-h2 {
-    text-align: center;
-    color: white;
-    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
-    margin-bottom: 40px;
-    padding-top: 40px;
-    font-size: 2rem;
-
-
-}
-
-h3 { 
-    
-    text-align: center;
-    align-items: center;
-    color: white;
-    background-color: darkgray;
-    
-    padding: 30px;
-    margin: 1.8rem;
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    border-radius: 35px;
-}
- 
-
-
-    
-
-
-p {
-    color: white;
-
-}
-
 
 
 /*footer general*/
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 /*body de contacto*/
 
 
@@ -143,11 +154,13 @@ p {
 /*main productos*/
 
 
-
-.cash{
-    font-size: 30px;
+<<<<<<< HEAD
+=======
+.linea {
+    text-decoration: none;
+    margin-bottom: 20px;
 }
-
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 
 
 
@@ -160,15 +173,18 @@ p {
     margin: 30px;
 }
 
-.card-text{
+.card-text {
     color: black;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 
 /* header productos*/
-.produ{
-     list-style: none;
+.produ {
+    list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -181,17 +197,53 @@ p {
 
 /* footer */
 
+<<<<<<< HEAD
+=======
+.footer {
+    font-size: 1.3rem;
+    color: white;
+
+
+    background-color: #1E2A38;
+    border: black solid 3px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+
+    padding: 100px;
+
+}
+
+.redes a {
+    padding: 10px;
+    border-radius: 1.8rem;
+    background-color: darkblue;
+}
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 
 
 
 
 
 /* contenedor Contacto   */
+<<<<<<< HEAD
+=======
+.contenedor-contacto img {
+    border-radius: 15px;
+}
+
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
 
 
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -273,3 +325,8 @@ p {
 
     
     
+=======
+
+/*main section contacto*/
+
+>>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c

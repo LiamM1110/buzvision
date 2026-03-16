@@ -1,0 +1,133 @@
+@use "variables/../header" as*;
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #1E2A38;
+    font-size: 1.5rem;
+    height: 70px;
+    z-index: 110;
+    width: 100%;
+
+    a {
+        .logo {
+            width: 60px;
+            margin: 8px;
+        }
+    }
+
+    .juntos {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
+    nav {
+
+        width: 30%;
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+
+            li {
+                a {
+
+                    text-decoration: none;
+                    color: white;
+
+
+
+                }
+
+            }
+
+
+        }
+
+
+    }
+    
+    .search-form{
+    display: flex;
+}
+.search-form input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-form button{
+    padding: 8px 15px;
+    border: none;
+    background-color: #00bcd4;
+    cursor: pointer;
+}
+
+.search-form button:hover{
+    background-color: #0097a7;
+}
+
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Gravitas One", serif;
+    color: white;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
+    margin-top: 100px;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-size: 2rem;
+
+
+}
+
+h3 { 
+    
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: darkgray;
+    
+    padding: 30px;
+    margin: 1.8rem;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    border-radius: 35px;
+}
+ 
+
+p {
+    color: white;
+
+}
+footer {
+    text-align: center;
+
+}
+.red{
+   
+    width: 45px;
+}
+.cash{
+    font-size: 30px;
+}
+
