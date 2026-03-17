@@ -1,5 +1,25 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*header general*/
+=======
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*body*/
+body {
+  background-color: #0F172A;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+>>>>>>> anidamiento
 header {
   display: flex;
   flex-direction: row;
@@ -96,8 +116,33 @@ header nav ul li a {
 .contenedor-grid .img1 {
   grid-area: img1;
 }
+<<<<<<< HEAD
 
 .redes {
+=======
+main h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
+  margin-bottom: 40px;
+  padding-top: 40px;
+  font-size: 2rem;
+}
+main h3 {
+  text-align: center;
+  align-items: center;
+  color: white;
+  background-color: darkgray;
+  padding: 30px;
+  margin: 1.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 35px;
+}
+main p {
+  color: white;
+}
+main h2 .redes {
+>>>>>>> anidamiento
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,7 +201,20 @@ header nav ul li a {
   border-radius: 8px;
   font-weight: bold;
 }
+<<<<<<< HEAD
 .promo .btn-comprar:hover {
+=======
+main .promo a .btn-comprar .boton-comprar {
+  background-color: green;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+main .promo a .btn-comprar hover {
+>>>>>>> anidamiento
   background-color: #218838;
 }
 .promo {
@@ -266,6 +324,58 @@ header nav ul li a {
   cursor: pointer;
 }
 
+h4 {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.linea {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.cash {
+  font-size: 30px;
+}
+
+.contenedor-contacto {
+  background-image: url(../img/Imageeennegra.png);
+  padding: 90px;
+  margin: 90px;
+  display: grid;
+  grid-template-areas: "contacto3 contacto3 contacto3" "contacto2 contacto contacto " "contacto2 contacto contacto " "contacto2 contacto contacto ";
+  grid-template-columns: 40% 30% 20%;
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-contacto .contacto3 {
+  grid-area: contacto3;
+  padding-bottom: 100px;
+}
+.contenedor-contacto .contacto2 {
+  grid-area: contacto2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenedor-contacto .contacto {
+  grid-area: contacto;
+}
+.contenedor-contacto .contenedor-contacto img {
+  border-radius: 15px;
+}
+
+.medio {
+  text-align: center;
+}
 footer {
   text-align: center;
 }
@@ -421,6 +531,101 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 >>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
+}
+footer .footer {
+  font-size: 1.3rem;
+  color: white;
+  background-color: #1E2A38;
+  border: black solid 3px;
+}
+
+.primario {
+  background-color: #758A93;
+}
+.primario .abajo {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.primario .abajo .formulario {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.primario .abajo .formulario input, .primario .abajo .formulario .formulario textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.primario .abajo .formulario .formulario textarea {
+  resize: none;
+  height: 80px;
+}
+.primario .abajo .formulario button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+.primario .abajo .formulario button:hover {
+  background-color: #218838;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    height: 200px;
+    position: static;
+    top: 0;
+  }
+  header .juntos {
+    width: 100%;
+    justify-content: center;
+  }
+  header nav {
+    text-align: center;
+    width: 100%;
+  }
+  header nav ul {
+    justify-content: space-around;
+    padding: 0;
+  }
+}
+.contenedor-grid {
+  padding: 20px;
+  margin: 0;
+  grid-template-areas: "titulo" "img" "parrafo" "img1" "texto2";
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 200px 150px 200px 150px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.promo {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor-contacto {
+  padding: 20px;
+  margin: 0;
+  grid-template-areas: "contacto3" "contacto" "contacto2";
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
 }
 
 /*# sourceMappingURL=estilos.css.map */
