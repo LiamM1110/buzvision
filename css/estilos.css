@@ -1,26 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*header general*/
-=======
 @import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@200..700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*body*/
-body {
-  background-color: #0F172A;
-}
-
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
->>>>>>> anidamiento
 header {
   display: flex;
   flex-direction: row;
@@ -33,7 +11,7 @@ header {
   z-index: 110;
   width: 100%;
 }
-header img {
+header a .logo {
   width: 60px;
   margin: 8px;
 }
@@ -76,64 +54,33 @@ header nav ul li a {
   color: white;
 }
 
-/*CONTENEDOR-GRID*/
-.index {
-  font-size: 4rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contenedor-grid {
-  background-image: url(../img/Imageeennegra.png);
-  padding: 80px;
-  margin: 80px;
-  display: grid;
-  grid-template-areas: "titulo titulo titulo" "parrafo parrafo img" "img1 . texto2";
-  grid-template-columns: 35% 20% 35%;
-  grid-template-rows: 60px 200px 250px;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
+/*body*/
+body {
+  background-color: #0F172A;
 }
-.contenedor-grid .titulo-grid {
-  grid-area: titulo;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.contenedor-grid .parrafo-grid {
-  grid-area: parrafo;
-  font-family: initial;
-}
-.contenedor-grid .texto2-grid {
-  grid-area: texto2;
-  font-family: initial;
-}
-<<<<<<< HEAD
-.contenedor-grid .contenedor-grid img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-.contenedor-grid .img {
-=======
-main .contenedor-grid .img {
->>>>>>> unir-rama-lista
-  grid-area: img;
-}
-.contenedor-grid .img1 {
-  grid-area: img1;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-.redes {
-=======
-=======
-main .contenedor-grid img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
->>>>>>> unir-rama-lista
-main h2 {
+
+h1 {
+  text-align: center;
+  font-family: "Gravitas One", serif;
+  color: white;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
+  margin-top: 100px;
+  font-size: 3rem;
+}
+
+h2 {
   text-align: center;
   color: white;
   text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
@@ -141,7 +88,8 @@ main h2 {
   padding-top: 40px;
   font-size: 2rem;
 }
-main h3 {
+
+h3 {
   text-align: center;
   align-items: center;
   color: white;
@@ -151,213 +99,9 @@ main h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 35px;
 }
-main p {
-  color: white;
-}
-main h2 .redes {
->>>>>>> anidamiento
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  padding: 100px;
-}
-.redes a {
-  padding: 10px;
-  border-radius: 1.8rem;
-  background-color: darkblue;
-}
 
-.h-3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.promo {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.promo .promo1 {
-  position: relative;
-  background-color: #999999;
-  box-shadow: 0 2px 7px #dfdfdf;
-  margin: 20px;
-  width: 55%;
-}
-.promo .promo1 .wayfarer {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 20px;
-}
-.promo .promo1 .wayfarer h4 {
-  display: flex;
-  align-items: center;
-  color: black;
-}
-.promo .promo1 .wayfarer .cash {
-  font-size: 30px;
-}
-.promo .wayfarer {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 20px;
-}
-.promo .btn-comprar {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #28a745;
+p {
   color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-<<<<<<< HEAD
-.promo .btn-comprar:hover {
-=======
-main .promo a .btn-comprar .boton-comprar {
-  background-color: green;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-main .promo a .btn-comprar hover {
->>>>>>> anidamiento
-  background-color: #218838;
-}
-.promo {
-  /* boton comprar*/
-}
-.promo .boton-comprar {
-  background-color: green;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.promo2 {
-  position: relative;
-  background-color: #999999;
-  box-shadow: 0 2px 7px #dfdfdf;
-  margin: 20px;
-  width: 55%;
-}
-.promo2 .clubmaster {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 20px;
-}
-.promo2 .clubmaster h4 {
-  display: flex;
-  align-items: center;
-  color: black;
-}
-.promo2 .clubmaster .cash {
-  font-size: 30px;
-}
-.promo2 .btn-comprar {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #28a745;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-.promo2 .btn-comprar:hover {
-  background-color: #218838;
-}
-<<<<<<< HEAD
-.promo2 {
-  /* boton comprar*/
-}
-.promo2 .boton-comprar {
-  background-color: green;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.promo3 {
-=======
-main .promo2 .promo3 {
->>>>>>> unir-rama-lista
-  position: relative;
-  background-color: #999999;
-  box-shadow: 0 2px 7px #dfdfdf;
-  margin: 20px;
-  width: 55%;
-}
-<<<<<<< HEAD
-.promo3 .hexagonal {
-=======
-main .promo2 .promo3 .promo img {
-  width: 100%;
-  height: auto;
-}
-main .promo2 .promo3 .hexagonal {
->>>>>>> unir-rama-lista
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 20px;
-}
-<<<<<<< HEAD
-.promo3 .hexagonal h4 {
-  display: flex;
-  align-items: center;
-  color: black;
-}
-.promo3 .hexagonal .cash {
-  font-size: 30px;
-}
-.promo3 .btn-comprar {
-=======
-main .promo2 .promo3 .hexagonal .cash {
-  font-size: 30px;
-}
-main .promo2 .promo3 a .btn-comprar {
->>>>>>> unir-rama-lista
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #28a745;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-<<<<<<< HEAD
-.promo3 .btn-comprar:hover {
-=======
-main .promo2 .promo3 a .btn-comprar hover {
->>>>>>> unir-rama-lista
-  background-color: #218838;
-}
-.promo3 {
-  /* boton comprar*/
-}
-.promo3 .boton-comprar {
-  background-color: green;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
 }
 
 h4 {
@@ -372,201 +116,21 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
-.linea {
-  text-decoration: none;
-  margin-bottom: 20px;
-}
-
-.cash {
-  font-size: 30px;
-}
-
-.contenedor-contacto {
-  background-image: url(../img/Imageeennegra.png);
-  padding: 90px;
-  margin: 90px;
-  display: grid;
-  grid-template-areas: "contacto3 contacto3 contacto3" "contacto2 contacto contacto " "contacto2 contacto contacto " "contacto2 contacto contacto ";
-  grid-template-columns: 40% 30% 20%;
-  grid-template-rows: auto;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
-}
-.contenedor-contacto .contacto3 {
-  grid-area: contacto3;
-  padding-bottom: 100px;
-}
-.contenedor-contacto .contacto2 {
-  grid-area: contacto2;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.contenedor-contacto .contacto {
-  grid-area: contacto;
-}
-.contenedor-contacto .contenedor-contacto img {
-  border-radius: 15px;
-}
-
-.medio {
-  text-align: center;
-}
 footer {
   text-align: center;
 }
 footer .paz {
-  display: flex;
-  justify-content: space-evenly;
   padding: 40px;
-}
-footer .footer {
-  font-size: 1.3rem;
-  color: white;
   background-color: #1E2A38;
-  border: black solid 3px;
 }
-
-/*MAIN PRODUCTOS*/
-.linea {
-  text-decoration: underline;
-}
-
-/*CARROUSEL PROD*/
-/*MAIN PRODUCTOS*/
-/*CARD BOOSTRAP*/
-.contenedor-contacto {
-  background-image: url(../img/Imageeennegra.png);
-  padding: 90px;
-  margin: 90px;
-  display: grid;
-  grid-template-areas: "contacto3 contacto3 contacto3" "contacto2 contacto contacto " "contacto2 contacto contacto " "contacto2 contacto contacto ";
-  grid-template-columns: 40% 30% 20%;
-  grid-template-rows: auto;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
-}
-.contenedor-contacto .contacto3 {
-  grid-area: contacto3;
-  padding-bottom: 100px;
-}
-.contenedor-contacto .contacto2 {
-  grid-area: contacto2;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.contenedor-contacto .contenedor-contacto img {
-  border-radius: 15px;
-}
-.contenedor-contacto .contacto {
-  grid-area: contacto;
-}
-
-.primario {
-  background-color: #758A93;
-}
-.primario .abajo {
+footer .paz .foto {
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.primario .abajo .formulario {
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.primario .abajo .formulario .formulario input,
-.primario .abajo .formulario .formulario textarea {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 14px;
-}
-.primario .abajo .formulario .formulario textarea {
-  resize: none;
-  height: 80px;
-}
-.primario .abajo .formulario .formulario button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #28a745;
-  color: white;
-  cursor: pointer;
-}
-.primario .abajo .formulario .formulario button:hover {
-  background-color: #218838;
-}
-
-@media only screen and (max-width: 480px) {
-  header {
-    flex-direction: column;
-    justify-content: none;
-    align-items: center;
-    height: 200px;
-    position: static;
-    top: 0;
-  }
-  header .juntos {
-    width: 100%;
-    justify-content: center;
-  }
-  header nav {
-    text-align: center;
-    width: 100%;
-  }
-  header nav ul {
-    justify-content: space-around;
-    padding: 0;
-  }
-}
-.contenedor-grid {
-  padding: 20px;
-  margin: 0;
-  grid-template-areas: "titulo" "img" "parrafo" "img1" "texto2";
-  grid-template-columns: 100%;
-  grid-template-rows: 100px 200px 150px 200px 150px;
-}
-
-h1 {
-  margin-bottom: 40px;
-}
-
-.promo {
-  justify-content: center;
-  flex-direction: column;
-}
-
-.contenedor-contacto {
-  padding: 20px;
-  margin: 0;
-  grid-template-areas: "contacto3" "contacto" "contacto2";
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-=======
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*body*/
-body {
-  background-color: #0F172A;
-}
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
->>>>>>> 95fb5730acc4635dc03b8eb80cc54b60efd6e78c
+footer .paz .foto a .red {
+  width: 45px;
 }
 footer .footer {
   font-size: 1.3rem;
@@ -616,6 +180,233 @@ footer .footer {
 }
 .primario .abajo .formulario button:hover {
   background-color: #218838;
+}
+
+.anima {
+  text-align: center;
+  font-family: "Gravitas One", serif;
+  color: white;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
+  margin-top: 100px;
+  font-size: 5rem;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 1.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.contenedor-grid {
+  background-image: url(../img/Imageeennegra.png);
+  padding: 80px;
+  margin: 80px;
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "parrafo parrafo img" "img1 . texto2";
+  grid-template-columns: 35% 20% 35%;
+  grid-template-rows: 60px 200px 250px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-grid .titulo-grid {
+  grid-area: titulo;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenedor-grid .parrafo-grid {
+  grid-area: parrafo;
+  font-family: initial;
+}
+.contenedor-grid .texto2 {
+  grid-area: texto2;
+  font-family: initial;
+}
+.contenedor-grid .img {
+  grid-area: img;
+}
+.contenedor-grid .img1 {
+  grid-area: img1;
+}
+.contenedor-grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+h2 .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 100px;
+}
+h2 .redes a {
+  padding: 10px;
+  border-radius: 1.8rem;
+  background-color: darkblue;
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.promo .promo1 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo .promo1 img {
+  width: 100%;
+  height: auto;
+}
+.promo .wayfarer {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .wayfarer .cash {
+  font-size: 30px;
+}
+.promo a .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo a .btn-comprar .boton-comprar {
+  background-color: green;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.promo a .btn-comprar .boton-comprar hover {
+  background-color: #218838;
+}
+.promo .promo2 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo .promo2 img {
+  width: 100%;
+  height: auto;
+}
+.promo .promo2 .clubmaster {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .promo2 .clubmaster .cash {
+  font-size: 30px;
+}
+.promo a .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo a .btn-comprar hover {
+  background-color: #218838;
+}
+.promo .promo3 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo .promo3 img {
+  width: 100%;
+  height: auto;
+}
+.promo .hexagonal {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .hexagonal .cash {
+  font-size: 30px;
+}
+.promo a .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo a .btn-comprar .btn-comprar:hover {
+  background-color: #218838;
+}
+
+.contenedor-contacto {
+  background-image: url(../img/Imageeennegra.png);
+  padding: 90px;
+  margin: 90px;
+  display: grid;
+  grid-template-areas: "contacto3 contacto3 contacto3" "contacto2 contacto contacto " "contacto2 contacto contacto " "contacto2 contacto contacto ";
+  grid-template-columns: 40% 30% 20%;
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-contacto .contacto3 {
+  grid-area: contacto3;
+  padding-bottom: 100px;
+}
+.contenedor-contacto .contacto2 {
+  grid-area: contacto2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenedor-contacto .contacto {
+  grid-area: contacto;
+}
+.contenedor-contacto .contenedor-contacto img {
+  border-radius: 15px;
+}
+
+.medio {
+  text-align: center;
+}
+
+.linea {
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 480px) {
