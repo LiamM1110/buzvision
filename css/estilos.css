@@ -1,21 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@200..700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*body*/
-body {
-  background-color: #0F172A;
-}
-
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -71,7 +54,24 @@ header nav ul li a {
   color: white;
 }
 
-main h1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*body*/
+body {
+  background-color: #0F172A;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
   text-align: center;
   font-family: "Gravitas One", serif;
   color: white;
@@ -79,43 +79,8 @@ main h1 {
   margin-top: 100px;
   font-size: 3rem;
 }
-main .contenedor-grid {
-  background-image: url(../img/Imageeennegra.png);
-  padding: 80px;
-  margin: 80px;
-  display: grid;
-  grid-template-areas: "titulo titulo titulo" "parrafo parrafo img" "img1 . texto2";
-  grid-template-columns: 35% 20% 35%;
-  grid-template-rows: 60px 200px 250px;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
-}
-main .contenedor-grid .titulo-grid {
-  grid-area: titulo;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-main .contenedor-grid .parrafo-grid {
-  grid-area: parrafo;
-  font-family: initial;
-}
-main .contenedor-grid .texto2 {
-  grid-area: texto2;
-  font-family: initial;
-}
-main .contenedor-grid .img {
-  grid-area: img;
-}
-main .contenedor-grid .img1 {
-  grid-area: img1;
-}
-main .contenedor-grid img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-main h2 {
+
+h2 {
   text-align: center;
   color: white;
   text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
@@ -123,7 +88,8 @@ main h2 {
   padding-top: 40px;
   font-size: 2rem;
 }
-main h3 {
+
+h3 {
   text-align: center;
   align-items: center;
   color: white;
@@ -133,143 +99,9 @@ main h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 35px;
 }
-main p {
+
+p {
   color: white;
-}
-main h2 .redes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  padding: 100px;
-}
-main h2 .redes a {
-  padding: 10px;
-  border-radius: 1.8rem;
-  background-color: darkblue;
-}
-main h3 {
-  text-align: center;
-  align-items: center;
-  color: white;
-  background-color: darkgray;
-  padding: 30px;
-  margin: 1.8rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-radius: 35px;
-}
-main .promo {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-main .promo .promo1 {
-  position: relative;
-  background-color: #999999;
-  box-shadow: 0 2px 7px #dfdfdf;
-  margin: 20px;
-  width: 55%;
-}
-main .promo .promo1 .promo img {
-  width: 100%;
-  height: auto;
-}
-main .promo .promo1 .wayfarer {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 20px;
-}
-main .promo .promo1 .wayfarer .cash {
-  font-size: 30px;
-}
-main .promo a .btn-comprar {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #28a745;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-main .promo a .btn-comprar .boton-comprar {
-  background-color: green;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-main .promo a .btn-comprar hover {
-  background-color: #218838;
-}
-main .promo2 {
-  position: relative;
-  background-color: #999999;
-  box-shadow: 0 2px 7px #dfdfdf;
-  margin: 20px;
-  width: 55%;
-}
-main .promo2 .promo img {
-  width: 100%;
-  height: auto;
-}
-main .promo2 .clubmaster {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 20px;
-}
-main .promo2 .clubmaster .cash {
-  font-size: 30px;
-}
-main .promo2 a .btn-comprar {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #28a745;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-main .promo2 a .btn-comprar hover {
-  background-color: #218838;
-}
-main .promo2 .promo3 {
-  position: relative;
-  background-color: #999999;
-  box-shadow: 0 2px 7px #dfdfdf;
-  margin: 20px;
-  width: 55%;
-}
-main .promo2 .promo3 .promo img {
-  width: 100%;
-  height: auto;
-}
-main .promo2 .promo3 .hexagonal {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 20px;
-}
-main .promo2 .promo3 .hexagonal .cash {
-  font-size: 30px;
-}
-main .promo2 .promo3 a .btn-comprar {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #28a745;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-main .promo2 .promo3 a .btn-comprar hover {
-  background-color: #218838;
 }
 
 h4 {
@@ -284,46 +116,6 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
-.linea {
-  text-decoration: none;
-  margin-bottom: 20px;
-}
-
-.cash {
-  font-size: 30px;
-}
-
-.contenedor-contacto {
-  background-image: url(../img/Imageeennegra.png);
-  padding: 90px;
-  margin: 90px;
-  display: grid;
-  grid-template-areas: "contacto3 contacto3 contacto3" "contacto2 contacto contacto " "contacto2 contacto contacto " "contacto2 contacto contacto ";
-  grid-template-columns: 40% 30% 20%;
-  grid-template-rows: auto;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
-}
-.contenedor-contacto .contacto3 {
-  grid-area: contacto3;
-  padding-bottom: 100px;
-}
-.contenedor-contacto .contacto2 {
-  grid-area: contacto2;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.contenedor-contacto .contacto {
-  grid-area: contacto;
-}
-.contenedor-contacto .contenedor-contacto img {
-  border-radius: 15px;
-}
-
-.medio {
-  text-align: center;
-}
 footer {
   text-align: center;
 }
@@ -337,7 +129,7 @@ footer .paz .foto {
   justify-content: space-evenly;
   width: 100%;
 }
-footer .paz .foto a img .red {
+footer .paz .foto a .red {
   width: 45px;
 }
 footer .footer {
@@ -388,6 +180,233 @@ footer .footer {
 }
 .primario .abajo .formulario button:hover {
   background-color: #218838;
+}
+
+.anima {
+  text-align: center;
+  font-family: "Gravitas One", serif;
+  color: white;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
+  margin-top: 100px;
+  font-size: 5rem;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 1.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.contenedor-grid {
+  background-image: url(../img/Imageeennegra.png);
+  padding: 80px;
+  margin: 80px;
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "parrafo parrafo img" "img1 . texto2";
+  grid-template-columns: 35% 20% 35%;
+  grid-template-rows: 60px 200px 250px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-grid .titulo-grid {
+  grid-area: titulo;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenedor-grid .parrafo-grid {
+  grid-area: parrafo;
+  font-family: initial;
+}
+.contenedor-grid .texto2 {
+  grid-area: texto2;
+  font-family: initial;
+}
+.contenedor-grid .img {
+  grid-area: img;
+}
+.contenedor-grid .img1 {
+  grid-area: img1;
+}
+.contenedor-grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+h2 .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 100px;
+}
+h2 .redes a {
+  padding: 10px;
+  border-radius: 1.8rem;
+  background-color: darkblue;
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.promo .promo1 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo .promo1 img {
+  width: 100%;
+  height: auto;
+}
+.promo .wayfarer {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .wayfarer .cash {
+  font-size: 30px;
+}
+.promo a .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo a .btn-comprar .boton-comprar {
+  background-color: green;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.promo a .btn-comprar .boton-comprar hover {
+  background-color: #218838;
+}
+.promo .promo2 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo .promo2 img {
+  width: 100%;
+  height: auto;
+}
+.promo .promo2 .clubmaster {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .promo2 .clubmaster .cash {
+  font-size: 30px;
+}
+.promo a .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo a .btn-comprar hover {
+  background-color: #218838;
+}
+.promo .promo3 {
+  position: relative;
+  background-color: #999999;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 20px;
+  width: 55%;
+}
+.promo .promo3 img {
+  width: 100%;
+  height: auto;
+}
+.promo .hexagonal {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+}
+.promo .hexagonal .cash {
+  font-size: 30px;
+}
+.promo a .btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.promo a .btn-comprar .btn-comprar:hover {
+  background-color: #218838;
+}
+
+.contenedor-contacto {
+  background-image: url(../img/Imageeennegra.png);
+  padding: 90px;
+  margin: 90px;
+  display: grid;
+  grid-template-areas: "contacto3 contacto3 contacto3" "contacto2 contacto contacto " "contacto2 contacto contacto " "contacto2 contacto contacto ";
+  grid-template-columns: 40% 30% 20%;
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-contacto .contacto3 {
+  grid-area: contacto3;
+  padding-bottom: 100px;
+}
+.contenedor-contacto .contacto2 {
+  grid-area: contacto2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenedor-contacto .contacto {
+  grid-area: contacto;
+}
+.contenedor-contacto .contenedor-contacto img {
+  border-radius: 15px;
+}
+
+.medio {
+  text-align: center;
+}
+
+.linea {
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 480px) {
