@@ -17,11 +17,12 @@
 }
 
 /*body*/
-body{
-      background-color: #0F172A;
+body {
+    background-color: #0F172A;
 }
 
-html, body{
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -53,6 +54,7 @@ header {
         align-items: center;
         width: 50%;
         justify-content: space-evenly;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         .search-form {
@@ -97,6 +99,32 @@ button{
 
 }
 >>>>>>> anidamiento
+=======
+
+        .search-form {
+            display: flex;
+
+            input {
+                padding: 8px;
+                border: none;
+                border-radius: 5px 0 0 5px;
+                outline: none;
+            }
+
+            button {
+                padding: 8px 15px;
+                border: none;
+                background-color: #00bcd4;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #0097a7;
+            }
+
+
+        }
+>>>>>>> unir-rama-lista
 
     }
 
@@ -175,11 +203,64 @@ button{
     }
 
     .contenedor-grid {
+<<<<<<< HEAD
+=======
+        background-image: url(../img/Imageeennegra.png);
+        padding: 80px;
+        margin: 80px;
+        display: grid;
+        grid-template-areas:
+            "titulo titulo titulo"
+            "parrafo parrafo img"
+            "img1 . texto2";
+
+        grid-template-columns: 35% 20% 35%;
+
+
+        grid-template-rows: 60px 200px 250px;
+
+        justify-content: center;
+
+        justify-items: center;
+
+        align-items: center;
+
+        gap: 10px;
+
+        .titulo-grid {
+            grid-area: titulo;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .parrafo-grid {
+            grid-area: parrafo;
+            font-family: initial;
+
+        }
+
+        .texto2 {
+            grid-area: texto2;
+            font-family: initial;
+        }
+
+        .img {
+            grid-area: img;
+        }
+
+        .img1 {
+            grid-area: img1;
+        }
+>>>>>>> unir-rama-lista
         img {
             width: 100%;
             height: 100%;
             border-radius: 10px;
         }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> unir-rama-lista
     }
 
 <<<<<<< HEAD
@@ -234,35 +315,40 @@ button{
 =======
     //h2
     h2 {
-    text-align: center;
-    color: white;
-    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
-    margin-bottom: 40px;
-    padding-top: 40px;
-    font-size: 2rem;
+        text-align: center;
+        color: white;
+        text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.91);
+        margin-bottom: 40px;
+        padding-top: 40px;
+        font-size: 2rem;
 
 
-}
-h3 { 
-    
-    text-align: center;
-    align-items: center;
-    color: white;
-    background-color: darkgray;
-    
-    padding: 30px;
-    margin: 1.8rem;
+    }
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    border-radius: 35px;
-}
- 
-p {
-    color: white;
+    h3 {
 
+<<<<<<< HEAD
 }
 >>>>>>> anidamiento
+=======
+        text-align: center;
+        align-items: center;
+        color: white;
+        background-color: darkgray;
+
+        padding: 30px;
+        margin: 1.8rem;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        border-radius: 35px;
+    }
+
+    p {
+        color: white;
+
+    }
+>>>>>>> unir-rama-lista
 
             justify-content: center;
             align-items: center;
@@ -294,15 +380,16 @@ p {
                 font-size: 18px;
                 border-radius: 8px;
                 font-weight: bold;
-                .boton-comprar{
-    background-color: green;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
+
+                .boton-comprar {
+                    background-color: green;
+                    color: white;
+                    padding: 12px 25px;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
 
                 hover {
                     background-color: #218838;
@@ -312,7 +399,7 @@ p {
         }
     }
 
-    .promo2 {
+.promo2 {
         position: relative;
         background-color: #999999;
         box-shadow: 0 2px 7px #dfdfdf;
@@ -339,13 +426,20 @@ p {
         }
 
 
-    }
+    
 
+<<<<<<< HEAD
     .wayfarer {
 
         justify-content: center;
         align-items: center;
         padding: 8px;
+=======
+     .promo3 {
+        position: relative;
+        background-color: #999999;
+        box-shadow: 0 2px 7px #dfdfdf;
+>>>>>>> unir-rama-lista
         margin: 20px;
     }
 
@@ -403,6 +497,7 @@ p {
         }
 
     }
+<<<<<<< HEAD
 
     .btn-comprar {
         display: inline-block;
@@ -448,6 +543,12 @@ p {
         margin: 20px;
 =======
 h4{
+=======
+ }
+}
+
+h4 {
+>>>>>>> unir-rama-lista
     display: flex;
     align-items: center;
     color: black;
@@ -466,7 +567,7 @@ a {
 }
 
 
-.cash{
+.cash {
     font-size: 30px;
 }
 
@@ -497,22 +598,25 @@ a {
     gap: 10px;
 
     .contacto3 {
-    grid-area: contacto3;
-    padding-bottom: 100px;
+        grid-area: contacto3;
+        padding-bottom: 100px;
 
 
-}
-.contacto2 {
-    grid-area: contacto2;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
-}
-.contacto {
-    grid-area: contacto;
-}
-.contenedor-contacto img{
-    border-radius: 15px;
-}
+    .contacto2 {
+        grid-area: contacto2;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .contacto {
+        grid-area: contacto;
+    }
+
+    .contenedor-contacto img {
+        border-radius: 15px;
+    }
 
 
 
@@ -520,9 +624,8 @@ a {
 
 .medio {
     text-align: center;
-    h2{
 
-    }
+    h2 {}
 }
 
 
@@ -531,11 +634,27 @@ a {
 >>>>>>> anidamiento
 
 
+<<<<<<< HEAD
         h4 {
             display: flex;
             align-items: center;
             color: black;
         }
+=======
+footer {
+    text-align: center;
+
+    .paz {
+
+        padding: 40px;
+        background-color: #1E2A38;
+
+        .foto {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+>>>>>>> unir-rama-lista
 
         .cash {
             font-size: 30px;
@@ -544,6 +663,7 @@ a {
 
     }
 
+<<<<<<< HEAD
     .btn-comprar {
         display: inline-block;
         padding: 12px 25px;
@@ -584,6 +704,8 @@ footer {
         padding: 40px;
     }
 
+=======
+>>>>>>> unir-rama-lista
     .footer {
         font-size: 1.3rem;
         color: white;
@@ -592,6 +714,7 @@ footer {
         background-color: #1E2A38;
         border: black solid 3px;
     }
+<<<<<<< HEAD
 
 }
 
@@ -705,12 +828,17 @@ footer {
     border: black solid 3px;
 }
 >>>>>>> anidamiento
+=======
+>>>>>>> unir-rama-lista
 
 }
 
 .primario {
     background-color: #758A93;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> unir-rama-lista
 
     .abajo {
         display: flex;
@@ -729,7 +857,11 @@ footer {
             gap: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
+<<<<<<< HEAD
             .formulario input,
+=======
+            input,
+>>>>>>> unir-rama-lista
             .formulario textarea {
                 padding: 10px;
                 border-radius: 5px;
@@ -742,7 +874,11 @@ footer {
                 height: 80px;
             }
 
+<<<<<<< HEAD
             .formulario button {
+=======
+            button {
+>>>>>>> unir-rama-lista
                 padding: 10px;
                 border: none;
                 border-radius: 5px;
@@ -751,6 +887,7 @@ footer {
                 cursor: pointer;
             }
 
+<<<<<<< HEAD
             .formulario button:hover {
                 background-color: #218838;
             }
@@ -802,24 +939,39 @@ button{
 button:hover{
     background-color: #218838;
 }
+=======
+            button:hover {
+                background-color: #218838;
+            }
+>>>>>>> unir-rama-lista
 
 
-    
+
+        }
+
+    }
+
 }
 
-}
-
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width:480px){ 
       header{
 >>>>>>> anidamiento
+=======
+@media only screen and (max-width:480px) {
+    header {
+>>>>>>> unir-rama-lista
         flex-direction: column;
         justify-content: none;
         align-items: center;
         height: 200px;
         position: static;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> unir-rama-lista
         top: 0;
 
         .juntos {
@@ -837,6 +989,7 @@ button:hover{
             }
 
         }
+<<<<<<< HEAD
 
     }
 }
@@ -847,15 +1000,12 @@ button:hover{
         width: 100%;
         justify-content: center;
     }
+=======
+>>>>>>> unir-rama-lista
     
-    nav{
-        text-align: center;
-        width: 100%;
-         ul{
-        justify-content: space-around;
-        padding: 0;
-    }
+}
 
+<<<<<<< HEAD
     }
     }
 }  .contenedor-grid{
@@ -904,11 +1054,28 @@ button:hover{
             "contacto3"
             "contacto"
             "contacto2";
+=======
+.contenedor-grid {
+    padding: 20px;
 
-            grid-template-columns:100%;
+    margin: 0;
+>>>>>>> unir-rama-lista
 
-            grid-template-rows:auto ;
+    grid-template-areas:
+        "titulo"
+        "img"
+        "parrafo"
+        "img1"
+        "texto2"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 200px 150px 200px 150px;
+}
 
+h1 {
+    margin-bottom: 40px;
+
+<<<<<<< HEAD
         }
 <<<<<<< HEAD
 =======
@@ -935,3 +1102,28 @@ html, body{
 =======
    
 >>>>>>> anidamiento
+=======
+}
+
+.promo {
+display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor-contacto {
+    padding: 20px;
+    margin: 0;
+
+    grid-template-areas:
+        "contacto3"
+        "contacto"
+        "contacto2";
+
+    grid-template-columns: 100%;
+
+    grid-template-rows: auto;
+
+}
+}
+>>>>>>> unir-rama-lista
