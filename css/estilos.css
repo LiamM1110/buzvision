@@ -1,59 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@200..700&display=swap");
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  background-color: #1E2A38;
-  font-size: 1.5rem;
-  height: 70px;
-  z-index: 110;
-  width: 100%;
-}
-header a .logo {
-  width: 60px;
-  margin: 8px;
-}
-header .juntos {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  justify-content: space-evenly;
-}
-header .juntos .search-form {
-  display: flex;
-}
-header .juntos .search-form input {
-  padding: 8px;
-  border: none;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-}
-header .juntos .search-form button {
-  padding: 8px 15px;
-  border: none;
-  background-color: #00bcd4;
-  cursor: pointer;
-}
-header .juntos .search-form button:hover {
-  background-color: #0097a7;
-}
-header nav {
-  width: 30%;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -114,6 +59,61 @@ a {
   text-decoration: none;
   color: white;
   font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #1E2A38;
+  font-size: 1.5rem;
+  height: 70px;
+  z-index: 110;
+  width: 100%;
+}
+header a .logo {
+  width: 60px;
+  margin: 8px;
+}
+header .juntos {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+header .juntos .search-form {
+  display: flex;
+}
+header .juntos .search-form input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+header .juntos .search-form button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #00bcd4;
+  cursor: pointer;
+}
+header .juntos .search-form button:hover {
+  background-color: #0097a7;
+}
+header nav {
+  width: 30%;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 footer {
@@ -372,6 +372,14 @@ h2 .redes a {
   background-color: #218838;
 }
 
+.parrafo {
+  font-size: 20px;
+}
+
+.texto2 {
+  font-size: 20px;
+}
+
 .contenedor-contacto {
   background-image: url(../img/Imageeennegra.png);
   padding: 90px;
@@ -404,9 +412,82 @@ h2 .redes a {
   text-align: center;
 }
 
+.primario {
+  background-color: #758A93;
+}
+.primario .abajo {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.formulario textarea {
+  resize: none;
+  height: 80px;
+}
+
+.formulario button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #218838;
+}
+
 .linea {
   text-decoration: none;
   margin-bottom: 20px;
+}
+
+.card-text {
+  color: black;
+}
+
+.cash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn-comprar .btn-comprar:hover {
+  background-color: #218838;
 }
 
 @media only screen and (max-width: 480px) {

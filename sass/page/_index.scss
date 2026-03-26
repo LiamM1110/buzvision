@@ -1,3 +1,6 @@
+@use "../generales/variables" as*;
+
+
 .anima {
     text-align: center;
     font-family: "Gravitas One", serif;
@@ -236,6 +239,7 @@ h2 {
     }
 
     a {
+       
         .btn-comprar {
             display: inline-block;
             padding: 12px 25px;
@@ -254,4 +258,12 @@ h2 {
 
     }
 
+}
+
+.parrafo{
+    font-size: 20px;
+}
+
+.texto2{
+    font-size: 20px;
 }
