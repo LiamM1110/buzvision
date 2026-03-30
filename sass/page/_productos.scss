@@ -6,7 +6,7 @@
 }
 
 .card-text{
-    color: black;
+    color: $black;
 }
 .cash{
     display: flex;
@@ -18,8 +18,8 @@
  .btn-comprar {
             display: inline-block;
             padding: 12px 25px;
-            background-color: #28a745;
-            color: white;
+            background-color: $verde-claro;
+            color: $blanco;
             text-decoration: none;
             font-size: 18px;
             border-radius: 8px;
@@ -27,7 +27,7 @@
             
 
             .btn-comprar:hover {
-                background-color: #218838;
+                background-color: $verde-oscuro;
             }
 
         }

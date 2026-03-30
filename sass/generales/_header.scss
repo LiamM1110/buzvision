@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background-color: #1E2A38;
+    background-color: $azul-claro;
     font-size: 1.5rem;
     height: 70px;
     z-index: 110;
@@ -37,12 +37,12 @@ header {
             button {
                 padding: 8px 15px;
                 border: none;
-                background-color: #00bcd4;
+                background-color:$celeste;
                 cursor: pointer;
             }
 
             button:hover {
-                background-color: #0097a7;
+                background-color: $celeste;
             }
 
 
@@ -65,7 +65,7 @@ header {
                 a {
 
                     text-decoration: none;
-                    color: white;
+                    color: $blanco;
 
 
 
