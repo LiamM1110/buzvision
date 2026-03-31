@@ -24,10 +24,10 @@
             font-size: 18px;
             border-radius: 8px;
             font-weight: bold;
+            cursor: pointer;
             
-
+        }
+        
             .btn-comprar:hover {
                 background-color: $verde-oscuro;
             }
-
-        }

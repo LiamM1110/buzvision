@@ -20,9 +20,11 @@ header {
 
     .juntos {
         display: flex;
+        flex-direction: row;
         align-items: center;
-        width: 50%;
         justify-content: space-evenly;
+        width: 50%;
+       
 
         .search-form {
             display: flex;

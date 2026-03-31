@@ -9,3 +9,12 @@ $azul-oscuro: #0F172A;
 $azul-claro: #1E2A38;
 $darkgray: #a9a9a9;
 $celeste:#00bcd4;
+
+
+@mixin flex-con ($direction, $aling, $justify){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $aling;
+    justify-content: $justify;
+}
+

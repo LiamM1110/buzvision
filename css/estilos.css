@@ -79,9 +79,10 @@ header a .logo {
 }
 header .juntos {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  width: 50%;
   justify-content: space-evenly;
+  width: 50%;
 }
 header .juntos .search-form {
   display: flex;
@@ -302,7 +303,7 @@ h2 .redes a {
   font-size: 16px;
   cursor: pointer;
 }
-.promo a .btn-comprar .boton-comprar hover {
+.promo a .btn-comprar .boton-comprar:hover {
   background-color: #218838;
 }
 .promo .promo2 {
@@ -335,8 +336,9 @@ h2 .redes a {
   border-radius: 8px;
   font-weight: bold;
 }
-.promo a .btn-comprar hover {
+.promo a .btn-comprar:hover {
   background-color: #218838;
+  cursor: pointer;
 }
 .promo .promo3 {
   position: relative;
@@ -485,8 +487,10 @@ h2 .redes a {
   font-size: 18px;
   border-radius: 8px;
   font-weight: bold;
+  cursor: pointer;
 }
-.btn-comprar .btn-comprar:hover {
+
+.btn-comprar:hover {
   background-color: #218838;
 }
 
