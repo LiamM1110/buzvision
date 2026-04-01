@@ -1,5 +1,33 @@
 @use "../generales/variables" as*;
 
+
+.anima {
+    text-align: center;
+    font-family: "Gravitas One", serif;
+    color: $blanco;
+    text-shadow: 4px 2px 2px $black;
+    margin-top: 100px;
+    font-size: 5rem;
+
+    
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 1.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 .contenedor-grid {
     background-image: url(../img/Imageeennegra.png);
     padding: 80px;
@@ -84,8 +112,8 @@ h2 {
 
     .promo1 {
         position: relative;
-        background-color: #999999;
-        box-shadow: 0 2px 7px #dfdfdf;
+        background-color: $gris;
+        box-shadow: 0 2px 7px $blanco;
         margin: 20px;
         width: 55%;
 
@@ -120,23 +148,31 @@ h2 {
             font-size: 18px;
             border-radius: 8px;
             font-weight: bold;
-            cursor: pointer;
-        }
 
-            &:hover {
+            .boton-comprar {
                 background-color: $verde-oscuro;
-                 
+                color: $blanco;
+                padding: 12px 25px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #218838;
+                }
+
+            }
+
         }
-
-
 
     }
 
 
     .promo2 {
         position: relative;
-        background-color: #999999;
-        box-shadow: 0 2px 7px #dfdfdf;
+        background-color: $gris;
+        box-shadow: 0 2px 7px $blanco;
         margin: 20px;
         width: 55%;
 
@@ -144,7 +180,7 @@ h2 {
             width: 100%;
             height: auto;
         }
-    }
+
         .clubmaster {
             justify-content: center;
             align-items: center;
@@ -157,7 +193,7 @@ h2 {
 
 
         }
-    
+    }
 
     a {
         .btn-comprar {
@@ -168,13 +204,12 @@ h2 {
             text-decoration: none;
             font-size: 18px;
             border-radius: 8px;
-            font-weight: bold; 
-            cursor: pointer;
-
+            font-weight: bold;
+            
 
             &:hover {
                 background-color: $verde-oscuro;
-               
+                cursor: pointer;
             }
 
         }
@@ -182,8 +217,8 @@ h2 {
 
     .promo3 {
         position: relative;
-        background-color: #999999;
-        box-shadow: 0 2px 7px #dfdfdf;
+        background-color: $gris;
+        box-shadow: 0 2px 7px $blanco;
         margin: 20px;
         width: 55%;
 
@@ -206,7 +241,8 @@ h2 {
     }
 
     a {
-        .btn-comprar {
+       
+        .btn-comprar{
             display: inline-block;
             padding: 12px 25px;
             background-color: $verde-claro;
@@ -215,14 +251,21 @@ h2 {
             font-size: 18px;
             border-radius: 8px;
             font-weight: bold;
-             cursor: pointer;
-
-            &:hover {
+            
+             .btn-comprar:hover {
                 background-color: $verde-oscuro;
             }
-
         }
+         
 
     }
 
+}
+
+.parrafo{
+    font-size: 20px;
+}
+
+.texto2{
+    font-size: 20px;
 }

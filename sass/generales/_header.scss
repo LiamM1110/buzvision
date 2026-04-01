@@ -19,12 +19,10 @@ header {
     }
 
     .juntos {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 50%;
        
+        width: 50%;
+        @include flex-con;
+    
 
         .search-form {
             display: flex;

@@ -11,10 +11,10 @@ $darkgray: #a9a9a9;
 $celeste:#00bcd4;
 
 
-@mixin flex-con ($direction, $aling, $justify){
+@mixin flex-con ($direction: row, $align: center, $justify: center){
     display: flex;
     flex-direction: $direction;
-    align-items: $aling;
+    align-items: $align;
     justify-content: $justify;
 }
 
