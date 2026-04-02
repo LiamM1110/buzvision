@@ -25,7 +25,9 @@
         }
     
 }
-
+.anima{
+    font-size: 4rem;
+}
 .contenedor-grid {
     padding: 20px;
 
@@ -68,3 +70,64 @@ display: flex;
 
 }
 }
+
+@media (min-width: 481px) and (max-width: 768px){
+    header{
+         flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        height: 200px;
+        position: static;
+        top: 0;
+
+        .juntos {
+            width: 100%;
+            justify-content: center;
+        }
+
+        nav {
+            text-align: center;
+            width: 100%;
+
+            ul {
+                justify-content: space-around;
+                padding: 0;
+            }
+
+        }
+    }
+    
+    .anima{
+        font-size: 4rem;
+    }
+    .contenedor-grid {
+    background-image: url(../img/Imageeennegra.png);
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas:
+        "titulo titulo titulo"
+        "parrafo parrafo img"
+        "img1 . texto2";
+
+    grid-template-columns: 35% 20% 35%;
+
+
+    grid-template-rows: 60px 200px 250px;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+
+    gap: 10px;}
+
+    .promo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+}
+
